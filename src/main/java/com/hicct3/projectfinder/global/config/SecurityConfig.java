@@ -61,10 +61,7 @@ public class SecurityConfig {
                     var config = new org.springframework.web.cors.CorsConfiguration();
                     config.setAllowedOriginPatterns(java.util.List.of(
                             "https://zzoin.me",
-                            "capacitor://localhost",
-                            "http://localhost",
-                            "https://localhost",
-                            "http://localhost:5173"
+                            "https://zzoin.vercel.app"
                     ));
                     config.setAllowedMethods(java.util.List.of("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
                     config.setAllowedHeaders(java.util.List.of("*"));
